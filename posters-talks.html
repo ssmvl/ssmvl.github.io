@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://getbootstrap.com//docs/5.0/assets/css/docs.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>Moonshine Vision Lab.</title>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#pub-year">
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="mvl-logo" viewBox="0 0 64 64">
+        <path style="fill: #fff; fill-rule: evenodd;" d="M51.911,50.133h0c0,3.338-8.914,6.044-19.911,6.044s-19.911-2.706-19.911-6.044h0V33.422h0c0-8.005,6.171-14.749,14.578-16.789V9.956a2.133,2.133,0,1,1,0-4.267H37.333a2.133,2.133,0,1,1,0,4.267v6.678c8.407,2.04,14.578,8.784,14.578,16.789h0V50.133h0Z"/>
+        <path style="fill: #000; fill-rule: evenodd;" d="M53.333,50.489c0,3.927-9.551,7.111-21.333,7.111s-21.333-3.184-21.333-7.111h0V33.422c0-8.322,6.107-15.383,14.578-17.879V11.081a3.556,3.556,0,0,1,1.422-6.814H37.333a3.556,3.556,0,0,1,3.484,4.267h0.072a4.622,4.622,0,0,1,4.622,4.622,6.376,6.376,0,0,1-1.842,4.49c5.819,3.365,9.664,9.174,9.664,15.776V50.489h0ZM42.667,13.156a1.778,1.778,0,0,0-1.778-1.778H38.756v4.165q1.1,0.324,2.139.748A3.412,3.412,0,0,0,42.667,13.3V13.156Zm-6.756,4.627V8.533h1.422a0.711,0.711,0,0,0,0-1.422H26.667a0.711,0.711,0,0,0,0,1.422h1.422v9.249c-7.916,1.476-13.948,7.337-14.531,14.5a19.072,19.072,0,0,0,7.471,2.925,10.953,10.953,0,0,1,1-3.637l0.033,0.035,0.3,0.3a3.7,3.7,0,0,0,5.229,0l0.05-.05a3.7,3.7,0,0,0,0-5.229l-0.3-.3L27.3,26.293a11.026,11.026,0,0,1,15.667,8.915,19.078,19.078,0,0,0,7.471-2.925C49.86,25.119,43.828,19.258,35.911,17.782ZM50.489,34.247c-2.937,2.226-10.108,3.8-18.489,3.8s-15.552-1.572-18.489-3.8V49.778c0,2.749,8.278,4.978,18.489,4.978s18.489-2.229,18.489-4.978V34.247Z"/>
+        <path style="fill: #000; fill-rule: evenodd;" d="M19.9,49.81V48.6q-0.592-.255-1.181-0.525V45.924L18.6,41.6l0.041,0q1.523,4.3,3.066,8.492,0.766,0.165,1.535.3,1.515-3.621,3.041-7.337l0.042,0.012-0.035,4.558v1.938q-0.572.037-1.142,0.061v1.215q2.11,0.3,4.235.411V50.044q-0.549-.133-1.1-0.279V42.507q0.549-.062,1.1-0.137V41.148q-2.071-.111-4.13-0.4-1.344,3.337-2.679,6.6l-0.042-.008q-1.379-3.8-2.746-7.672-1.486-.383-2.953-0.86-0.526-.171-1.049-0.355v1.222q0.523,0.288,1.049.563V47.5q-0.526-.067-1.049-0.146v1.215Q17.821,49.281,19.9,49.81Zm16.318,1.337q1.543-4.522,3.078-9.142,0.461-.125.922-0.259V40.524q-1.925.328-3.866,0.5v1.222q0.538,0.022,1.075.031-1,3.1-2.01,6.161l-0.148.552-0.042,0-0.155-.545q-1.007-2.919-2.015-5.88,0.462-.079.923-0.167V41.178q-2.04.082-4.081-.005v1.222q0.458,0.075.916,0.142,1.649,4.429,3.3,8.747Q35.165,51.238,36.217,51.147Zm12.044-2.6V45.516q-0.752.265-1.511,0.5l-0.1,1.509q-1.4.439-2.815,0.791V41.2q0.606-.255,1.21-0.526V39.447q-0.6.167-1.21,0.318-1.006.251-2.02,0.458-0.538.11-1.078,0.208v1.222q0.54,0.006,1.078,0v7.257q-0.538.214-1.078,0.416v1.215A48.972,48.972,0,0,0,48.261,48.551Z"/>
+      </symbol>
+    </svg>
+    <div class="container">
+      <header class="row align-items-end py-2 mb-3 border-bottom border-3">
+        <div class="col-12 col-lg-4 py-1">
+          <a href="index.html" class="d-flex align-items-center justify-content-center justify-content-lg-start text-dark text-decoration-none">
+            <svg class="flex-shrink-0" width="4rem" height="4rem"><use xlink:href="#mvl-logo"/></svg>
+            <div class="fw-light lh-sm">
+              <div class="fs-4">Moonshine Vision Lab</div>
+              <div class="fs-6">Sungshin Women's University</div>
+            </div>
+          </a>
+        </div><!-- /.col(logo) -->
+        <div class="col-12 col-lg-8 py-1">
+          <ul class="nav nav-pills justify-content-center justify-content-lg-end">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="people.html" class="nav-link">People</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active bg-secondary" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Research</a>
+              <ul class="dropdown-menu" style="z-index: 9999!important;">
+                <li><a class="dropdown-item" href="publications.html" aria-current="page">Publications</a></li>
+                <li><a class="dropdown-item active" href="posters-talks.html">Posters & Talks</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="research-mvl.html">Research @ MVL</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div><!-- /.col(nav) -->
+      </header>
+
+      <div class="col-12 bg-body p-1 border-bottom sticky-top">
+        <h4>Posters & Talks</h4>
+        <nav id="pub-year" class="nav nav-pills">
+          <a class="nav-link" href="#pub-2021">2021</a>
+          <a class="nav-link" href="#pub-2018-2020">2018-2020</a>
+          <a class="nav-link" href="#pub-2014-2017">2014-2017</a>
+          <a class="nav-link" href="#pub-2009-2011">2009-2011</a>
+        </nav>
+      </div><!-- /.sticky-top(h4 & nav) -->
+
+      <main class="col-12 pb-4">
+        <h5 id="pub-2021" class="mt-4">2021</h5>
+        <ul class="ref-list list-unstyled">
+          <li class="ref-item py-1">Cha, O., & Blake, R. (2021, May 21-26). <span class="presn-title">Extracting evidence for neural rhythms from behavioral measurements</span> [Poster presentation]. Vision Sciences Society, St. Pete Beach, FL, USA.</li>
+        </ul><!-- /.ref-list(2021) -->
+
+        <h5 id="pub-2018-2020" class="mt-4">2018-2020</h5>
+        <ul class="ref-list list-unstyled">
+          <li class="ref-item py-1">Cha, O., Blake, R., & Gauthier, I. (2020, June 19-24). <span class="presn-title">Judgments of average and variance within object ensembles rely on a common ability</span> [Poster presentation]. Vision Sciences Society, St. Pete Beach, FL. <a href="https://doi.org/10.1167/jov.20.11.841" target="_blank" class="article-doi text-break">https://doi.org/10.1167/jov.20.11.841</a></li>
+          <li class="ref-item py-1">Cha, O., Blake, R., & Gauthier, I. (2019, May 17-22). <span class="presn-title">Stimulus-specific learning facilitates ensemble processing of cars</span> [Poster presentation]. Vision Sciences Society, St. Pete Beach, FL. <a href="https://doi.org/10.1167/19.10.32" target="_blank" class="article-doi text-break">https://doi.org/10.1167/19.10.32</a></li>
+          <li class="ref-item py-1">Blake, R., Cha, O., Son, G., & Chong, S. C. (2019, May 17-22). <span class="presn-title">Novel procedure for generating continuous flash suppression: Seurat meets Mondrian</span> [Poster presentation]. Vision Sciences Society, St. Pete Beach, FL. <a href="https://doi.org/10.1167/19.10.63c" target="_blank" class="article-doi text-break">https://doi.org/10.1167/19.10.63c</a></li>
+          <li class="ref-item py-1">Cha, O., & Chong, S. C. (2018, May 18-23). <span class="presn-title">Ensemble information is built with a bag of free-floating visual features</span> [Poster presentation]. Vision Sciences Society, St. Pete Beach, FL. <a href="https://doi.org/10.1167/18.10.317" target="_blank" class="article-doi text-break">https://doi.org/10.1167/18.10.317</a></li>
+        </ul><!-- /.ref-list(2018-2020) -->
+
+        <h5 id="pub-2014-2017" class="mt-4">2014-2017</h5>
+        <ul class="ref-list list-unstyled">
+          <li class="ref-item py-1">Cha, O., & Chong, S. C. (2017, August 30-31). <span class="presn-title">Ensemble similarity between binocular images promotes binocular matching</span> [Poster presentation]. Korean Society for Brain and Neural Science, Seoul, Korea.</li>
+          <li class="ref-item py-1">Cha, O., Blake, R., & Chong, S. C. (2017, May 19-24). <span class="presn-title">Dissimilarity between feature ensembles triggers binocular rivalry without competing local features</span> [Poster presentation]. Vision Sciences Society, St. Pete Beach, FL, USA. <a href="https://doi.org/10.1167/17.10.1221" target="_blank" class="article-doi text-break">https://doi.org/10.1167/17.10.1221</a></li>
+          <li class="ref-item ref-item-kr py-1">차옥균, 정상철. (2017, 1월 19-20일). <span class="presn-title" data-bs-toggle="tooltip" title="Effect of the skewness and peak of orientation distributions on the perceived average orientaion [Poster presentation]">개별 방위 확률 분포의 왜도와 정점이 평균 방위 판단이 미치는 영향</span> [포스터 발표]. 한국 인지 및 생물 심리학회, 부산, 한국.</li>
+          <li class="ref-item py-1">Cha, O., & Chong, S. C. (2016, May 13-18). <span class="presn-title">Objects held in visual working memory compete for access to resources</span> [Poster presentation]. Vision Sciences Society, St. Pete Beach, FL, USA. <a href="https://doi.org/10.1167/16.12.1053" target="_blank" class="article-doi text-break">https://doi.org/10.1167/16.12.1053</a></li>
+          <li class="ref-item ref-item-kr py-1">차옥균, 정상철. (2016, 1월 21-23일). <span class="presn-title" data-bs-toggle="tooltip" title="Objects held in visual working memory compete for access to resources [Symposium]">시각작업기억에 저장된 물체의 선택적 유지에 따른 정밀도 변화</span> [심포지움]. 한국 인지 및 생물 심리학회, 제주, 한국.</li>
+          <li class="ref-item py-1">Eo, K., Cha, O., Kang, M.-S., & Chong, S. C. (2015, May 15-20). <span class="presn-title">Attending away makes semantic information available during rivalry</span> [Symposium]. Vision Sciences Society, St. Pete Beach, FL, USA. <a href="https://doi.org/10.1167/15.12.382" target="_blank" class="article-doi text-break">https://doi.org/10.1167/15.12.382</a></li>
+          <li class="ref-item py-1">Kang, K., Cha, O., & Chong, S. C. (2015, May 15-20). <span class="presn-title">Relational information decays faster than object features in visual working memory</span> [Poster presentation]. Vision Sciences Society, St. Pete Beach, FL, USA. <a href="https://doi.org/10.1167/15.12.535" target="_blank" class="article-doi text-break">https://doi.org/10.1167/15.12.535</a></li>
+          <li class="ref-item ref-item-kr py-1">차옥균, 정상철. (2015, 1월 14-16일). <span class="presn-title" data-bs-toggle="tooltip" title="Contour integration affects perceived mean orientations of Gabors [Symposium]">윤곽선 통합이 평균방위 지각에 미치는 영향</span> [심포지움]. 한국 인지 및 생물 심리학회, 제주, 한국.</li>
+          <li class="ref-item ref-item-kr py-1">어강용, 차옥균, 강경용, 정상철. (2015, 1월 14-16일). <span class="presn-title" data-bs-toggle="tooltip" title="Influence of pupil size on brightness perception [Poster presentation]">동공 크기가 밝기 지각에 미치는 영향</span> [포스터 발표]. 한국 인지 및 생물 심리학회, 제주, 한국.</li>
+          <li class="ref-item ref-item-kr py-1">강경용, 차옥균, 정상철. (2015, 1월 14-16일). <span class="presn-title" data-bs-toggle="tooltip" title="Relational information decays faster than object features in visual working memory [Poster presentation]">시각작업기억에서 대상 세부특징을 앞서는 관계 정보의 쇠잔</span> [포스터 발표]. 한국 인지 및 생물 심리학회, 제주, 한국.</li>
+          <li class="ref-item py-1">Kang, M.-S., Eo, K., Cha, O., & Chong, S. C. (2014, November 15-19). <span class="presn-title">Inattention opens door for unconscious processing during continuous flash suppression</span> [Symposium]. Society for Neuroscience, Washington, DC, USA.</li>
+          <li class="ref-item py-1">Cha, O., & Chong, S. C. (2014, May 16-21). <span class="presn-title">Contour integration affects perceived mean orientations of Gabors</span> [Poster presentation]. Vision Sciences Society, St. Pete Beach, FL, USA. <a href="https://doi.org/10.1167/14.10.1429" target="_blank" class="article-doi text-break">https://doi.org/10.1167/14.10.1429</a></li>
+          <li class="ref-item py-1">Eo, K., Cha, O., Jung, Y., & Chong, S. C. (2014, May 16-21). <span class="presn-title">The relationship between vividness of visual imagery and indirect size-measurements of the visual cortex</span> [Poster presentation]. Vision Sciences Society, St. Pete Beach, FL, USA. <a href="https://doi.org/10.1167/14.10.43" target="_blank" class="article-doi text-break">https://doi.org/10.1167/14.10.43</a></li>
+        </ul><!-- /.ref-list(2014-2017) -->
+
+        <h5 id="pub-2009-2011" class="mt-4">2009-2011</h5>
+        <ul class="ref-list list-unstyled">
+          <li class="ref-item ref-item-kr py-1">차옥균, 정상철. (2011, 6월 24일). <span class="presn-title" data-bs-toggle="tooltip" title="Analyzing electrophysiological signals using genetic algorithm [Symposium]">유전자 알고리즘을 이용한 신경생리신호 분석</span> [심포지움]. 한국 인지과학회, 서울, 한국.</li>
+          <li class="ref-item ref-item-kr py-1">백이화, 차옥균, 정상철. (2011, 6월 24일). <span class="presn-title" data-bs-toggle="tooltip" title="Binocular rivalry and the perception at the blind spot [Symposium]">양안 경합과 맹점에서의 표면 지각</span> [심포지움]. 한국 인지과학회, 서울, 한국.</li>
+          <li class="ref-item py-1">Baek, Y., Cha, O., & Chong, S. C. (2011, May 6-11). <span class="presn-title">Temporal dynamics of binocular rivalry at the blind spot</span> [Poster presentation]. Vision Sciences Society, Naples, FL, USA. <a href="https://doi.org/10.1167/11.11.304" target="_blank" class="article-doi text-break">https://doi.org/10.1167/11.11.304</a></li>
+          <li class="ref-item py-1">Cha, O., & Chong, S. C. (2010, May 7-12). <span class="presn-title">Background is remapped across saccades</span> [Poster presentation]. Vision Sciences Society, Naples, FL, USA. <a href="https://doi.org/10.1167/10.7.516" target="_blank" class="article-doi text-break">https://doi.org/10.1167/10.7.516</a></li>
+          <li class="ref-item py-1">Baek, Y., Kim, J., Cha, O., & Chong, S. C. (2009, May 8-13). <span class="presn-title">The quality of filled-in surface at the blind spot</span> [Poster presentation]. Vision Sciences Society, Naples, FL, USA. <a href="https://doi.org/10.1167/9.8.1028" target="_blank" class="article-doi text-break">https://doi.org/10.1167/9.8.1028</a></li>
+        </ul><!-- /.ref-list(2009-2011) -->
+      </main>
+    </div><!-- /.container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+    </script>
+  </body>
+</html>

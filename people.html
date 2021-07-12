@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <title>Moonshine Vision Lab.</title>
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="mvl-logo" viewBox="0 0 64 64">
+        <path style="fill: #fff; fill-rule: evenodd;" d="M51.911,50.133h0c0,3.338-8.914,6.044-19.911,6.044s-19.911-2.706-19.911-6.044h0V33.422h0c0-8.005,6.171-14.749,14.578-16.789V9.956a2.133,2.133,0,1,1,0-4.267H37.333a2.133,2.133,0,1,1,0,4.267v6.678c8.407,2.04,14.578,8.784,14.578,16.789h0V50.133h0Z"/>
+        <path style="fill: #000; fill-rule: evenodd;" d="M53.333,50.489c0,3.927-9.551,7.111-21.333,7.111s-21.333-3.184-21.333-7.111h0V33.422c0-8.322,6.107-15.383,14.578-17.879V11.081a3.556,3.556,0,0,1,1.422-6.814H37.333a3.556,3.556,0,0,1,3.484,4.267h0.072a4.622,4.622,0,0,1,4.622,4.622,6.376,6.376,0,0,1-1.842,4.49c5.819,3.365,9.664,9.174,9.664,15.776V50.489h0ZM42.667,13.156a1.778,1.778,0,0,0-1.778-1.778H38.756v4.165q1.1,0.324,2.139.748A3.412,3.412,0,0,0,42.667,13.3V13.156Zm-6.756,4.627V8.533h1.422a0.711,0.711,0,0,0,0-1.422H26.667a0.711,0.711,0,0,0,0,1.422h1.422v9.249c-7.916,1.476-13.948,7.337-14.531,14.5a19.072,19.072,0,0,0,7.471,2.925,10.953,10.953,0,0,1,1-3.637l0.033,0.035,0.3,0.3a3.7,3.7,0,0,0,5.229,0l0.05-.05a3.7,3.7,0,0,0,0-5.229l-0.3-.3L27.3,26.293a11.026,11.026,0,0,1,15.667,8.915,19.078,19.078,0,0,0,7.471-2.925C49.86,25.119,43.828,19.258,35.911,17.782ZM50.489,34.247c-2.937,2.226-10.108,3.8-18.489,3.8s-15.552-1.572-18.489-3.8V49.778c0,2.749,8.278,4.978,18.489,4.978s18.489-2.229,18.489-4.978V34.247Z"/>
+        <path style="fill: #000; fill-rule: evenodd;" d="M19.9,49.81V48.6q-0.592-.255-1.181-0.525V45.924L18.6,41.6l0.041,0q1.523,4.3,3.066,8.492,0.766,0.165,1.535.3,1.515-3.621,3.041-7.337l0.042,0.012-0.035,4.558v1.938q-0.572.037-1.142,0.061v1.215q2.11,0.3,4.235.411V50.044q-0.549-.133-1.1-0.279V42.507q0.549-.062,1.1-0.137V41.148q-2.071-.111-4.13-0.4-1.344,3.337-2.679,6.6l-0.042-.008q-1.379-3.8-2.746-7.672-1.486-.383-2.953-0.86-0.526-.171-1.049-0.355v1.222q0.523,0.288,1.049.563V47.5q-0.526-.067-1.049-0.146v1.215Q17.821,49.281,19.9,49.81Zm16.318,1.337q1.543-4.522,3.078-9.142,0.461-.125.922-0.259V40.524q-1.925.328-3.866,0.5v1.222q0.538,0.022,1.075.031-1,3.1-2.01,6.161l-0.148.552-0.042,0-0.155-.545q-1.007-2.919-2.015-5.88,0.462-.079.923-0.167V41.178q-2.04.082-4.081-.005v1.222q0.458,0.075.916,0.142,1.649,4.429,3.3,8.747Q35.165,51.238,36.217,51.147Zm12.044-2.6V45.516q-0.752.265-1.511,0.5l-0.1,1.509q-1.4.439-2.815,0.791V41.2q0.606-.255,1.21-0.526V39.447q-0.6.167-1.21,0.318-1.006.251-2.02,0.458-0.538.11-1.078,0.208v1.222q0.54,0.006,1.078,0v7.257q-0.538.214-1.078,0.416v1.215A48.972,48.972,0,0,0,48.261,48.551Z"/>
+      </symbol>
+    </svg>
+    <div class="container">
+      <header class="row align-items-end py-2 mb-3 border-bottom border-3">
+        <div class="col-12 col-lg-4 py-1">
+          <a href="index.html" class="d-flex align-items-center justify-content-center justify-content-lg-start text-dark text-decoration-none">
+            <svg class="flex-shrink-0" width="4rem" height="4rem"><use xlink:href="#mvl-logo"/></svg>
+            <div class="fw-light lh-sm">
+              <div class="fs-4">Moonshine Vision Lab</div>
+              <div class="fs-6">Sungshin Women's University</div>
+            </div>
+          </a>
+        </div><!-- /.col(logo) -->
+        <div class="col-12 col-lg-8 py-1">
+          <ul class="nav nav-pills justify-content-center justify-content-lg-end">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="people.html" class="nav-link active">People</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Research</a>
+              <ul class="dropdown-menu" style="z-index: 9999!important;">
+                <li><a class="dropdown-item" href="publications.html" aria-current="page">Publications</a></li>
+                <li><a class="dropdown-item" href="posters-talks.html">Posters & Talks</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="research-mvl.html">Research @ MVL</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div><!-- /.col(nav) -->
+      </header>
+
+      <main class="col-12 pb-4">
+        <h4>Principal Investigator</h4>
+        <div class="col-lg-9 py-2 mb-4">
+          <div class="card">
+            <div class="row g-0">
+              <div class="col-3 col-lg-2">
+                <img src="images/people/OakyoonCha.jpg" class="img-fluid rounded" alt="Oakyoon Cha">
+              </div>
+              <div class="card-body col-9 col-lg-10">
+                <h5 class="card-title">Oakyoon Cha</h5>
+                <p class="card-text">
+                  I recived my BA in psychology, MS and Ph.D. in cognitive science from Yonsei University, and then spent time as a postdoc at Vanderbilt University.
+                  I am currently Assistant Professor in the Department of Psychology at Sunghsin Women's University, and mentor brilliant scientists at Moonshine Vision Lab.
+                </p>
+                <p class="card-text">
+                  I am interested in how we perceive and recognize visual objects, particularly when lots of simialr objects come together.
+                  Imagine a speaker looking at her audience, trying to get a sense of how many of them are bored.
+                  This judgment, although it may seem trivial, requires an ability to comprehend facial expressions of lots of people quickly.
+                  Many studies in the lab will tap into this ability, dubbed <a href="research-mvl.html#ensemble-processing">ensemble processing</a>.
+                </p>
+                <div class="btn-group" role="group">
+                  <a href="https://oakyoon.github.io/cv/" target="_blank" class="btn btn-outline-primary">CV</a>
+                  <a href="https://scholar.google.com/citations?user=JcTavHMAAAAJ" target="_blank" class="btn btn-outline-primary">Google Scholar</a>
+                  <a href="https://neurotree.org/neurotree/tree.php?pid=732605" target="_blank" class="btn btn-outline-primary">NeuroTree</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.col(principal investigator) -->
+
+        <h4>Master Students</h4>
+        <div class="row mb-4" data-masonry='{"percentPosition": true }'>
+          <div class="col-lg-6 py-2">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-3">
+                  <img src="images/people/JumiLee.jpg" class="img-fluid rounded" alt="Name Here">
+                </div>
+                <div class="card-body col-9">
+                  <h5 class="card-title">Jumi Lee</h5>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Research: ensemble perception</li>
+                    <li class="list-group-item">Pastime: reading, workout</li>
+                    <li class="list-group-item">&#x43;&#x6F;&#x6E;&#x74;&#x61;&#x63;&#x74;&#x3A; &#x68;&#x65;&#x69;&#x68;&#x65;&#x69;&#x64;&#x69;&#x32;&#x34;&#x35;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;&#x63;&#x6F;&#x6D;</li>
+                  </ul>
+              </div>
+              </div>
+            </div>
+          </div><!-- /.col(student) -->
+
+          <div class="col-lg-6 py-2">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-3">
+                  <img src="images/people/SooJinKim.jpg" class="img-fluid rounded" alt="Name Here">
+                </div>
+                <div class="card-body col-9">
+                  <h5 class="card-title">Soo&nbsp;Jin Kim</h5>
+                  <p class="card-text">
+                    Soo Jin is interested in human cognitive and perceptual abilities.
+                    To be more specific, she is interested in how people perceive faces with various emotions and of various races when they are presented at the same time.
+                    She is also interested in studying diverse research tools and methodologies such as MATLAB, EEG, fMRI.
+                  </p>
+                  <p class="card-text">Soo Jin is a cat-lover. Apart from academic research, she loves playing with her cat, playing League of Legends, and reading books.</p>
+                  <p class="card-text">&#x43;&#x6F;&#x6E;&#x74;&#x61;&#x63;&#x74;&#x3A; &#x73;&#x6F;&#x6F;&#x6A;&#x69;&#x6E;&#x33;&#x39;&#x32;&#x36;&#x40;&#x67;&#x6D;&#x61;&#x69;&#x6C;&#x2E;&#x63;&#x6F;&#x6D;</p>
+                  <div class="btn-group" role="group">
+                    <a href="https://www.notion.so/Soo-Jin-s-Home-d62224264020443fbcc477428a17865d" target="_blank" class="btn btn-outline-primary">Homepage</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.col(student) -->
+
+          <div class="col-lg-6 py-2">
+            <div class="card">
+              <div class="row g-0">
+                <div class="col-3">
+                  <img src="images/people/SuYeonKim.jpg" class="img-fluid rounded" alt="Name Here">
+                </div>
+                <div class="card-body col-9">
+                  <h5 class="card-title">Su&nbsp;Yeon Kim</h5>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Research: attention</li>
+                    <li class="list-group-item">Pastime: watching movies</li>
+                    <li class="list-group-item">&#x43;&#x6F;&#x6E;&#x74;&#x61;&#x63;&#x74;&#x3A; &#x65;&#x6F;&#x64;&#x64;&#x79;&#x73;&#x6C;&#x40;&#x6E;&#x61;&#x76;&#x65;&#x72;&#x2E;&#x63;&#x6F;&#x6D;</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div><!-- /.col(student) -->
+        </div><!-- /.row(master students) -->
+      </main>
+    </div><!-- /.container -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  </body>
+</html>

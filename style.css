@@ -1,6 +1,9 @@
 /* bootstrap list group */
 .list-group-hanging .list-group-item { padding-left: 5rem; text-indent: -4rem; }
 
+/* news item */
+.addendum { font-size: 0.85em; padding-left: 0.15em; }
+
 /* reference list */
 .ref-item { padding-left: 4em; text-indent: -4em; }
 .ref-item .journal-title,

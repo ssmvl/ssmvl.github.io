@@ -1,3 +1,6 @@
+/* bootstrap container */
+.container { max-width: 1200px; }
+
 /* bootstrap list group */
 .list-group-hanging .list-group-item { padding-left: 5rem; text-indent: -4rem; }
 
